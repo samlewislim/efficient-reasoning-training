@@ -53,9 +53,7 @@ Method-specific flags:
 
 `trl`, `transformers`, `peft`, `accelerate`, `datasets`, `vllm`, `torch`,
 `numpy`, plus `sympy` / `latex2sympy2_extended` / `word2number` for the
-grader. Generation uses TRL's colocated vLLM mode, so vLLM and the trained
-model share each GPU — see `--vllm_gpu_memory_utilization` and
-`--vllm_enable_sleep_mode`.
+grader. Generation uses TRL's colocated vLLM mode.
 
 ## Attribution
 
