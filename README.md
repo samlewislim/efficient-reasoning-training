@@ -7,7 +7,7 @@ same data.
 | Method | Reward | Length signal |
 |---|---|---|
 | **ThinkPrune** | `1[correct(clip(y, L))]` | hard generation clip at `L` |
-| **Kimi k1.5** | `1[correct(y)] + w · len_reward(y)` | group-relative, no prompt instruction |
+| **Kimi k1.5 (GLP)** | `1[correct(y)] + w · len_reward(y)` | group-relative, no prompt instruction |
 | **LCPO-Exact** | `1[correct(y)] − α·\|n_gold − n_y\|` | target length written into the prompt |
 
 ## Layout
